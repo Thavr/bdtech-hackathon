@@ -19,5 +19,34 @@ Certifique-se de ter o Python 3.8+ instalado. Recomenda-se utilizar um ambiente 
 
 No terminal, execute:
 
-```bash
+bash
 pip install -r requirements.txt
+
+## Como executar
+
+1. Clone este repositório:
+
+````bash 
+git clone https://github.com/usuario/Catboost_bgtech.git
+
+cd Catboost_bgtech
+````
+
+2. Inicie o Jupyter Notebook:
+
+```bash
+jupyter notebook
+
+```
+
+3. Abra o arquivo Catboost_bgtech.ipynb no navegador.
+
+4. Execute as células em ordem (Shift + Enter) para:
+
+- Carregar os dados.
+
+- Processar variáveis.
+
+- Treinar o modelo.
+
+- Avaliar resultados.
