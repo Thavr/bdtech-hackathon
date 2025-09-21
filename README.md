@@ -4,7 +4,7 @@ Este repositório reúne experimentos de **aprendizado de máquina supervisionad
 
 ## Objetivo
 
-- Criar uma coleção de notebooks organizados por modelo (ex.: CatBoost, LightGBM, XGBoost, Random Forest).  
+- Criar uma coleção de notebooks organizados por modelo.
 - Documentar o processo de **pré-processamento, treinamento, avaliação e análise de resultados**.  
 - Fornecer um material de referência claro e reproduzível para estudos e comparações entre modelos.  
 
