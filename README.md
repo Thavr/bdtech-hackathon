@@ -2,6 +2,18 @@
 
 Este repositório reúne experimentos de **aprendizado de máquina supervisionado** utilizando diferentes algoritmos de gradient boosting e outros métodos clássicos. O objetivo é comparar o desempenho de diversos modelos aplicados a um mesmo conjunto de dados fornecido, avaliando métricas e interpretabilidade.
 
+---
+
+## Equipe 404: Bias Not Found
+
+### _Integrantes_:
+
+* Eduardo Ludgerio Barrado
+* Maisa Lumi Sonoda
+* Thales Vieira Rodrigues
+
+---
+
 ## Objetivo
 
 - Criar uma coleção de notebooks organizados por modelo (ex.: CatBoost, LightGBM, XGBoost, Random Forest).  
