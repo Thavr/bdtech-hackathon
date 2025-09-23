@@ -1,33 +1,32 @@
-# *BIG DATA HACKATHON-2025*
+# 📊 Pipeline de Treinamento com LightGBM
 
-Este repositório reúne experimentos de **aprendizado de máquina supervisionado** utilizando diferentes algoritmos de gradient boosting e outros métodos clássicos. O objetivo é comparar o desempenho de diversos modelos aplicados a um mesmo conjunto de dados fornecido, avaliando métricas e interpretabilidade.
+Este repositório contém um notebook que implementa um **pipeline de treinamento** utilizando a biblioteca **LightGBM**.
 
-## Objetivo
+## 📌 Conteúdo
+- Preparação dos dados para o modelo
+- Identificação de colunas categóricas
+- Criação de conjuntos de treino e teste
+- Treinamento do modelo LightGBM
+- Retorno do modelo treinado para avaliação
 
-- Criar uma coleção de notebooks organizados por modelo (ex.: CatBoost, LightGBM, XGBoost, Random Forest).  
-- Documentar o processo de **pré-processamento, treinamento, avaliação e análise de resultados**.  
-- Fornecer um material de referência claro e reproduzível para estudos e comparações entre modelos.  
+## 🚀 Como usar
+1. Abra o notebook `Pipeline_LightGBM_Documentado.ipynb`.
+2. Carregue o seu conjunto de dados no formato de DataFrame (`pandas`).
+3. Execute as células para treinar o modelo.
+4. O modelo treinado será retornado e poderá ser utilizado para previsões.
 
-## Estrutura
+## 📦 Dependências
+- Python 3.x
+- pandas
+- numpy
+- scikit-learn
+- lightgbm
 
-Cada pasta corresponde a um modelo específico:
+Instale as dependências com:
 
-- `catboost/` → aplicação do **CatBoost**  
-- `lightgbm/` → aplicação do **LightGBM**  
+```bash
+pip install pandas numpy scikit-learn lightgbm
+```
 
-## Como usar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/ThaVr/bdtech-hackathon
-   cd bdtech-hackathon
-
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-
-3. Abra os notebooks no Jupyter:
-   ```bash
-   jupyter notebook
-
-4. Navegue até a pasta do modelo desejado e siga as instruções do README específico.
+---
+✍️ Autor: *Eduardo Ludgerio*
